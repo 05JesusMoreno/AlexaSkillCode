@@ -1,0 +1,144 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancela"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ayuda"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numeroDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "SumaIntent",
+          "samples": [
+            "quiero realizar una suma",
+            "suma {numeroUno} mas {numeroDos}",
+            "suma {numeroUno} y el {numeroDos}",
+            "quiero realizar una suma  de {numeroUno} mas {numeroDos}",
+            "suma dos numeros"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numeroDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RestaIntent",
+          "samples": [
+            "resta el {numeroUno} y el {numeroDos}",
+            "resta {numeroUno} menos {numeroDos}",
+            "quiero realizar una resta"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numeroDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "DivideIntent",
+          "samples": [
+            "divide el {numeroUno} entre {numeroDos}",
+            "divide {numeroUno} entre {numeroDos}",
+            "quiero realizar una division"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numeroDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "MulIntent",
+          "samples": [
+            "realiza la multiplicacion de {numeroUno} por {numeroDos}",
+            "multiplica {numeroUno} por {numeroDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numero",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "raizCuadradaIntent",
+          "samples": [
+            "raiz cuadrada de {numero}",
+            "cual es la raiz cuadrada de {numero}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "nbase",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numero",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "PotenciaIntent",
+          "samples": [
+            "{nbase} elevado a la potencia de {numero}",
+            "calcula {nbase} elevado a la potencia de {numero}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "calculadora basica"
+    }
+  }
+}
