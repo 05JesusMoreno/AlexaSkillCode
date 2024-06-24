@@ -1,0 +1,40 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "CuriosidadIntent",
+          "samples": [
+            "Cuéntame algo interesante sobre el Nissan Skyline",
+            "dime un dato curioso sobre el Nissan Skyline",
+            "algo curioso sobre el nissan skyline",
+            "Nissan Skyline"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "nissan skylinejbm"
+    }
+  }
+}

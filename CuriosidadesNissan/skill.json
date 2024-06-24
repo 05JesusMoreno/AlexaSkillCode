@@ -1,0 +1,107 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Nissan Skylyne R34 Curiosities Skill",
+          "examplePhrases": [
+            "Alexa, open car skyline",
+            "Tell me something interesting about the Nissan Skyline",
+            "help"
+          ],
+          "keywords": [
+            "Nissan",
+            "Curious",
+            "Engine"
+          ],
+          "name": "Nissan Skyline R34",
+          "description": "The skill shows curious data about the Nissan Skyline R34 car, both in English and Spanish",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "Instead of searching the internet for interesting facts about the Nissan Skyline, this skill is enough to say the invocation name Alexa, Open nissan skylinejbm can be used",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "es-MX": {
+          "summary": "Skill de curiosidades del Nissan Skylyne R34",
+          "examplePhrases": [
+            "Alexa, Abre nissan skylinejbm",
+            "dime un dato curioso sobre el Nissan Skyline",
+            "ayuda"
+          ],
+          "keywords": [
+            "Nissan",
+            "Curioso",
+            "Motor"
+          ],
+          "name": "Nissan Skyline R34",
+          "description": "La skill muestra datos curiosos del auto Nissan Skyline R34, esto tanto en ingles como en español",
+          "smallIconUri": "file://assets/images/es-MX_smallIconUri.png",
+          "updatesDescription": "En lugar de buscar en internet datos interesantes del Nissan Skyline, esta esta skill basta con decir el nombre de invocación Alexa, Abre nissan skylinejbm podrá ser utilizado",
+          "largeIconUri": "file://assets/images/es-MX_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "en-US",
+            "language": "en"
+          },
+          {
+            "sourceLocale": "es-MX",
+            "language": "es"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"prueba uno\"}",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "MX",
+        "US"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:339712819721:function:214f378b-e3aa-4b79-a308-62e25f4f4f89:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:339712819721:function:214f378b-e3aa-4b79-a308-62e25f4f4f89:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:339712819721:function:214f378b-e3aa-4b79-a308-62e25f4f4f89:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:339712819721:function:214f378b-e3aa-4b79-a308-62e25f4f4f89:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {},
+        "es-MX": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
