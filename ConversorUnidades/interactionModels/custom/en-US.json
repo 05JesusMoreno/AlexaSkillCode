@@ -1,0 +1,79 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "exit"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "cantidad",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "medidaEntrada",
+              "type": "Medidas"
+            },
+            {
+              "name": "medidaSalida",
+              "type": "Medidas"
+            }
+          ],
+          "name": "ConversorIntent",
+          "samples": [
+            "How much is {cantidad} {medidaEntrada} to {medidaSalida}",
+            "converts {cantidad} {medidaEntrada} to {medidaSalida}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "km"
+              }
+            },
+            {
+              "name": {
+                "value": "meters"
+              }
+            },
+            {
+              "name": {
+                "value": "kilometers"
+              }
+            },
+            {
+              "name": {
+                "value": "centimeters"
+              }
+            }
+          ],
+          "name": "Medidas"
+        }
+      ],
+      "invocationName": "unit converter"
+    }
+  }
+}
