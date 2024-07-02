@@ -1,0 +1,35 @@
+{
+    "Tokio": {
+      "Descripcion": "Tokio es la capital de Japón y una de las ciudades más grandes y densamente pobladas del mundo. Es conocida por su combinación de tradición y modernidad, con rascacielos, tecnología avanzada y templos históricos. La ciudad es un importante centro cultural, financiero y político, ofreciendo una gran variedad de experiencias desde compras y entretenimiento hasta cultura y gastronomía.",
+      "LugaresTuristicos": [
+        "Torre de Tokio: Un icónico punto de referencia y torre de comunicaciones con vistas panorámicas de la ciudad.",
+        "Templo Senso-ji: El templo budista más antiguo de Tokio, ubicado en Asakusa.",
+        "Shibuya Crossing: Uno de los cruces peatonales más concurridos del mundo.",
+        "Parque Ueno: Un amplio parque con museos, un zoológico y hermosos cerezos en flor.",
+        "Palacio Imperial: Residencia de la familia imperial japonesa, con jardines abiertos al público."
+      ],
+      "ComidaTipica": [
+        "Sushi: Aunque originario de Edo (antiguo nombre de Tokio), el sushi es una de las comidas más emblemáticas de Tokio.",
+        "Ramen: Sopa de fideos con caldo, carne y vegetales.",
+        "Tempura: Mariscos y vegetales fritos en una capa ligera de masa.",
+        "Sukiyaki: Un platillo de carne y vegetales cocidos lentamente en una salsa dulce.",
+        "Monjayaki: Un platillo similar a okonomiyaki, originario de la región de Tsukishima en Tokio."
+      ],
+      "TrajeTipico": "El traje típico de Tokio es el kimono, una prenda tradicional japonesa. Aunque no es exclusivo de Tokio, el kimono es usado en ocasiones especiales y festividades. El yukata, una versión más ligera y casual del kimono, también es popular durante los festivales de verano.",
+      "PersonajesSobresalientes": [
+        "Haruki Murakami: Escritor y novelista conocido internacionalmente.",
+        "Hayao Miyazaki: Cofundador del Studio Ghibli y director de cine de animación.",
+        "Yayoi Kusama: Artista contemporánea famosa por sus obras de puntos y sus instalaciones inmersivas.",
+        "Shinzo Abe: Ex primer ministro de Japón.",
+        "Hideo Kojima: Diseñador de videojuegos, conocido por la serie 'Metal Gear'."
+      ],
+      "MusicaTipica": [
+        "Enka: Un género de música popular japonesa que recuerda a las baladas tradicionales.",
+        "J-Pop: Música pop japonesa, extremadamente popular y con una gran influencia en la cultura contemporánea.",
+        "Koto: Música tradicional tocada con un instrumento de cuerdas.",
+        "Taiko: Percusión tradicional japonesa, a menudo utilizada en festivales.",
+        "Anison: Música de anime, que incluye temas de apertura y cierre de series de anime."
+      ]
+    }
+  }
+  
