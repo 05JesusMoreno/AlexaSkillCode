@@ -1,0 +1,83 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "how this application works"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "DescripcionIntent",
+          "samples": [
+            "Give me a description of Tokyo",
+            "what is Tokyo",
+            "can you give me information about Tokyo",
+            "tell me about Tokyo"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TuristicoIntent",
+          "samples": [
+            "What tourist attractions are there in Tokyo",
+            "Tell me the main tourist spots in Tokyo.",
+            "What are the tourist places in Tokyo"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "platilloIntent",
+          "samples": [
+            "tell me about the gastronomy of Tokyo",
+            "What is the typical food in Tokyo"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TrajeIntent",
+          "samples": [
+            "what is the typical costume of Tokyo",
+            "What is the traditional costume of Tokyo",
+            "tell me about the traditional costume of Tokyo"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PersonajeIntent",
+          "samples": [
+            "what important people there are in Tokyo",
+            "who are the outstanding characters of Tokyo",
+            "tell me about famous people from Tokyo"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "MusicaIntent",
+          "samples": [
+            "what music is popular in Tokyo",
+            "Tell me about traditional music in Tokyo"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "tokyo city"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "como funciona esta aplicación"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "DescripcionIntent",
+          "samples": [
+            "dame una descripcion de tokio",
+            "cómo es Tokio",
+            "puedes darme información sobre Tokio",
+            "dime sobre Tokio"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TuristicoIntent",
+          "samples": [
+            "que atracciones turisticas hay en Tokio",
+            "dime los principales puntos turisticos de Tokio.",
+            "cuales son los lugares turisticos en Tokio"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "platilloIntent",
+          "samples": [
+            "dime sobre la gastronomia de Tokio",
+            "cual es la comida tipica de Tokio"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TrajeIntent",
+          "samples": [
+            "como es el traje tipico de Tokio",
+            "cual es el traje tipico de Tokio",
+            "dime sobre el traje tradicional de Tokio"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PersonajeIntent",
+          "samples": [
+            "que personas importantes hay en Tokio",
+            "quienes son los personajes sobresalientes de Tokio",
+            "dime sobre personas famosas de Tokio"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "MusicaIntent",
+          "samples": [
+            "que musica es popular en Tokio",
+            "dime sobre la musica tradicional de Tokio"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "ciudad tokio"
+    }
+  }
+}
